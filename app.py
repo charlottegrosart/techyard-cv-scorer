@@ -1,7 +1,7 @@
 import anthropic
 import streamlit as st
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic()
 
 st.set_page_config(page_title="🎯TechYard CV Scorer")
 st.markdown("""
